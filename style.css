@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8f4ec;
+    color:#4b3d2f;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.hero h1{
+    font-family:'Playfair Display',serif;
+    font-size:60px;
+    color:#8c6b45;
+}
+
+.subtitle{
+    margin-top:15px;
+    font-size:20px;
+    color:#666;
+}
+
+.main-photo{
+    width:280px;
+    height:280px;
+    object-fit:cover;
+    border-radius:20px;
+    margin:40px 0;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+    transition:.4s;
+}
+
+.main-photo:hover{
+    transform:scale(1.03);
+}
+
+.date{
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+button{
+    padding:14px 40px;
+    border:none;
+    background:#8c6b45;
+    color:white;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:17px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#6f5335;
+}
+
+section{
+    padding:90px 10%;
+}
+
+#counter{
+    text-align:center;
+    background:white;
+}
+
+#counter h2{
+    margin-bottom:20px;
+}
+
+#days{
+    font-size:45px;
+    color:#8c6b45;
+}
+
+.memory{
+    max-width:900px;
+    margin:auto;
+    line-height:2;
+}
+
+.memory h2{
+    margin-bottom:20px;
+    color:#8c6b45;
+    font-family:'Playfair Display',serif;
+}
+
+.memory p{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.letter{
+    background:#fff;
+    max-width:900px;
+    margin:80px auto;
+    border-radius:25px;
+    padding:50px;
+    box-shadow:0 15px 35px rgba(0,0,0,.1);
+    line-height:2;
+}
+
+.letter h2{
+    margin-bottom:25px;
+    color:#8c6b45;
+    font-family:'Playfair Display',serif;
+}
+
+.letter h3{
+    margin-top:40px;
+    text-align:right;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#777;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:42px;
+}
+
+.main-photo{
+    width:220px;
+    height:220px;
+}
+
+#days{
+    font-size:34px;
+}
+
+section{
+    padding:70px 25px;
+}
+
+}
